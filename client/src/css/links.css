@@ -1,0 +1,162 @@
+
+.link-container {
+    margin-bottom: 6px;
+    cursor: move;
+}
+
+.link-wrapper {
+    padding: 12px;
+    /* box-shadow: 0px 0px 12px -1px #000000; */
+    box-shadow: 0em 0em 0.1em #000000;
+    border-radius: 10px;
+}
+
+.link-show {
+    display: flex;
+    align-items: center;
+}
+.link-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.link-title {
+    flex-direction: column;
+    margin-left: 10px;
+    /* width: 200px; */
+    min-width: 200px;
+    width: 70%;
+    font-weight: 600;
+}
+
+.tag-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.tag-row {
+    flex-basis: 90px;
+}
+.tag-button {   
+    flex-basis: 21%;
+    height: 20px;
+    border-radius: 6px;
+    margin-right: 15px;
+    text-align: center;
+    font-size: 4px;
+    color: rgb(218, 213, 213);
+}
+.tag-blue {
+    background-color: rgb(82, 65, 234); 
+}
+.tag-orange {
+    background-color: rgb(200, 173, 108);
+}
+.tag-grin {
+    background-color: rgb(18, 161, 139); 
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text-title {
+    text-align: center;
+    font-size: 18px;
+}
+.input-wrap {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.input-wrap > label {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.input-box {
+    height: 40px;
+    width: 100%;
+    position: relative;
+}
+.input-css {
+    height: 44px;
+    font-size: 14px;
+    padding: 14px 12px;
+    width: 100%;
+    margin: 3px;
+    box-sizing: border-box;
+    color: #343434;
+    border: 1px solid #d8d8d8;
+    border-radius: 8px;
+    background-color: bisque;
+}
+.img_contain {
+    display: flex;
+    /* flex-direction: row; */
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.img_wrap {
+    display: flex;
+    width: 50%;
+ }
+.img_box {
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: gray;
+    cursor: pointer;
+}
+.text_type {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 10px;
+  }
+
+.menu-wrap {
+    display: flex;    
+    margin: 0 auto;
+    justify-content: center;
+}
+.menu-box {
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* 링크 스타일을 없애주는것  */
+.a-tag {
+    color: inherit;
+    text-decoration: inherit; 
+    width: 100%; 
+}
+.manager-button {
+    border-radius: 8px;
+    border: none;
+    margin: 0;
+    width: 100%;    
+    margin-bottom: 10px;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 18px;
+    background-color: #8090F5;
+    color: #fff;
+}
+.list-title {
+    margin-left: 10px;
+    font-weight: 600;
+    min-width: 100%;
+}
+.delete-icon {
+    width:40px;
+    display: contents;
+    justify-content: flex-end;
+}
